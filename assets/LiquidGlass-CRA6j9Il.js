@@ -1,0 +1,19 @@
+var e=`/* ══ Liquid glass ══════════════════════════════════════════
+   lab/LiquidGlass.tsx. The photograph, the margin round it and
+   the glass are one WebGL canvas; the margin is painted in the
+   card's colour, so the canvas has no edge of its own. */
+.lqg {
+  position: relative;
+  display: grid;
+  place-items: center;}
+
+.lqg-canvas {
+  display: block;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;}
+
+.lqg-canvas[data-over="true"] { cursor: grab; }
+
+.lqg-canvas[data-over="true"]:active { cursor: grabbing; }
+`;export{e as default};

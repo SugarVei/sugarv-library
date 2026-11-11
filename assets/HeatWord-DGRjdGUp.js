@@ -1,0 +1,11 @@
+var e=`/* ══ Heat word ═════════════════════════════════════════════ */
+.heat {
+  position: relative;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;}
+
+.heat-canvas { display: block; }
+`;export{e as default};

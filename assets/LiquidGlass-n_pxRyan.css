@@ -1,0 +1,1 @@
+.lqg{place-items:center;display:grid;position:relative}.lqg-canvas{touch-action:none;-webkit-user-select:none;user-select:none;display:block}.lqg-canvas[data-over=true]{cursor:grab}.lqg-canvas[data-over=true]:active{cursor:grabbing}
