@@ -1,0 +1,36 @@
+{
+  "name": "sugarv-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SugarV interactive React component and sound library",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://bencho.dev",
+  "scripts": {
+    "dev": "vite playground",
+    "build": "tsc --noEmit -p tsconfig.json && vite build playground",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "fflate": "^0.8.3",
+    "framer-motion": "^13.1.1",
+    "highlight.js": "^11.12.0",
+    "liquid-gooey": "^0.2.1",
+    "lucide-react": "^1.31.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^6.0.4",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
